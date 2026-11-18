@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SalesFileReader {
 
-    public static void readSalesFile(String fileName, ProductMap productMap) {
+    public static void readSalesFile(String fileName, ProductMap productMap, Customer_Map customerMap) {
 
         try (Scanner input = new Scanner(new File(fileName))) {
 
@@ -40,6 +40,8 @@ public class SalesFileReader {
                     }
 
                     productMap.updateProduct(productId, productName, items);
+                    double purchaseAmount = price * items;
+                    customerMap.updateCustomer(customerId, firstName, lastName, purchaseAmount);
 
                 } catch (NumberFormatException e) {
                     System.out.println("Invalid number: " + line);
