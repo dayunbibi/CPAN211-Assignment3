@@ -4,9 +4,12 @@ public class SalesFileReaderTest {
 
         ProductMap productMap = new ProductMap();
 
-        SalesFileReader.readSalesFile("Sales.txt", productMap);
+        Customer_Map customerMap = new Customer_Map();
+
+        SalesFileReader.readSalesFile("Sales.txt", productMap, customerMap);
 
         productMap.printProducts();
+        customerMap.printCustomers();
     }
 }
 
