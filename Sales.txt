@@ -1,0 +1,13 @@
+1005 Abigail Adams 5020 blouse 45 2
+1010 Brian Lee 5030 jeans 60 1
+1015 Chloe Kim 5040 sneakers 80 1
+1005 Abigail Adams 5030 jeans 60 3
+1020 Daniel Park 5020 blouse 45 1
+1010 Brian Lee 5050 hoodie 50 2
+
+1015 Chloe Kim 5020 blouse 45 4
+1020 Daniel Park 5040 sneakers 80 2
+1025 Emma Brown 5050 hoodie abc 1
+1030 Frank
+1025 Emma Brown 5060 scarf 20 -3
+1025 Emma Brown 5060 scarf 20 3

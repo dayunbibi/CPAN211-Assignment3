@@ -11,7 +11,7 @@ public class Customer_Map {
     	customer.get(customerId).addPurchased(purchaseAmount);
     }
     public void printCustomers() {
-    	System.out.println("=====Customer Report =====");
+    	System.out.println("===== Customers Report =====");
         System.out.printf("%-10s %-15s %-15s %s%n", "ID", "First Name", "Last Name", "Total Bill");
         for (Customer l : customer.values()) {
         	System.out.printf("%-10d %-15s %-15s $%.2f%n", l.getCustomerId(), l.getFName(), l.getLName(), l.getTotalBill());

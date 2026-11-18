@@ -49,7 +49,7 @@ public class SalesFileReader {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("Sales.txt file was not found.");
+            System.out.println(fileName + " file was not found.");
         }
     }
 }
